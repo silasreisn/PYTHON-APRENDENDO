@@ -16,4 +16,5 @@ from math import hypot
 opo = float(input('Digite o comprimento do cateto oposto: '))
 adj = float(input('Digite o comprimento do cateto adjacente: '))
 hip = hypot(opo, adj)
-print('O comprimento da hipotenusa é {:.2f}'.format(hip))
+print('O comprimento da hipotenusa é \033[31m{:.2f}\033[m'.format(hip))
+print(' ')

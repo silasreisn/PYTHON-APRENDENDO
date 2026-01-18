@@ -13,4 +13,5 @@ print('A porção interia do número {} é {}'.format(real, math.trunc(real)))''
 
 from math import trunc
 real = float(input('Digite um número Real qualquer: '))
-print('A porção interira do número {} é {}'.format(real, trunc(real)))
+print('A porção interira do número \033[34m{}\033[m é \033[31m{}\033[m'.format(real, trunc(real)))
+print(' ')

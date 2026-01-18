@@ -19,5 +19,6 @@ n3 = str(input('Terceiro aluno: '))
 n4 = str(input('Quarto aluno: '))
 lista = [n1, n2, n3, n4]
 shuffle(lista)
-print('A ordem da apresentação será ')
-print(lista)
+print('\033[31mA ordem da apresentação será\033[m ')
+print('\033[1;37;40m{}\033[m'.format(lista))
+print(' ')
