@@ -4,7 +4,7 @@
 a = int(input('Digite o primeiro número: '))
 b = int(input('Digite o segundo número: '))
 c = int(input('Digite o terceiro número: '))
-print('-' * 30)
+print('\033[32m-\033[m' * 30)
 #Verificando quem é menor 
 menor = a 
 if b < a and b < c:
@@ -17,5 +17,6 @@ if b > a and b > c:
     maior = b
 if c > a and c > b:
     maior = c
-print('O menor valor digitado foi {}'.format(menor))
-print('O maior valor digitado foi {}'.format(maior))
+print('\033[1;37mO menor valor digitado foi\033[m \033[31m{}\033[m'.format(menor))
+print('\033[1;37mO maior valor digitado foi\033[m \033[31m{}\033[m'.format(maior))
+print(' ')

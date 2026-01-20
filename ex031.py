@@ -10,7 +10,8 @@ else:
     print('Sua viagem de até {}km, vai custar R${:.2f}!'.format(dis,cob))'''
 
 
-dis = float(input('Qual é a distância da sua viagem? '))
-print('Você está preste a começar uma viagem de {}km.'.format(dis))
+dis = float(input('\033[1;37mQual é a distância da sua viagem? \033[m'))
+print('Você está preste a começar uma viagem de \033[31m{}km\033[m.'.format(dis))
 preço = dis * 0.50 if dis <= 200 else dis * 0.45
-print('E o preço da sua passagem será de R${:.2f}'.format(preço))
+print('E o preço da sua passagem será de \033[31mR${:.2f}\033[m.'.format(preço))
+print(' ')
