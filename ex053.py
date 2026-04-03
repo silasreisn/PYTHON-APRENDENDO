@@ -1,6 +1,6 @@
 #Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espoços.
 
-# strips() - remove os espaços do início e do fim da string
+# strip() - remove os espaços do início e do fim da string
 # upper()  - converte a string para maiúscula
 # split()  - divide a string em uma lista, usando os espaços como separadores
 # join()   - junta os elementos de uma lista em uma string, usando um separador (no caso, uma string vazia)
